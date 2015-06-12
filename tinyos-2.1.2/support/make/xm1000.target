@@ -4,7 +4,7 @@
 PLATFORM ?= xm1000
 
 
-MSP_BSL ?= xm1000-bsl
+MSP_BSL ?= /vagrant/tinyos-2.1.2/xm1000-bsl
 MSP_BSL_FLAGS = --tmote2618 
 MSP_MCU ?= msp430f2618
 MSP_GCC ?= msp430-gcc

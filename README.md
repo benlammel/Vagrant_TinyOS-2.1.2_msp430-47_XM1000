@@ -67,4 +67,4 @@ Troubleshooting
 -----
 I focussed on IPv6 using blip. If there are some troubles with XM1000 make sure you have added `defined(PLATFORM_XM1000)` in the code. XM1000 follow the telosb specs, so it works usually if you add it as follows:
 
-    #elif defined(PLATFORM_TELOS) || defined(PLATFORM_TELOSB) || defined(PLATFORM_EPIC) || defined(PLATFORM_XM1000)
+    #elif defined(PLATFORM_TELOS) || defined(PLATFORM_TELOSB) ... || defined(PLATFORM_XM1000)
